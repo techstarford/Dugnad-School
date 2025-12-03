@@ -3,29 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dugnad School | Trinity Term 2026</title>
+    <title>Dugnad Primary School | Trinity Term 2026</title>
     <link rel="stylesheet" href="./assets/css/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container nav-container">
             <div class="logo">
-                <!-- Replace with actual logo -->
                 <div class="logo-placeholder">
-                    <span class="logo-blue">DUGNAD</span>
-                    <span class="logo-red">SCHOOL</span>
+                    <img src="./assets/images/Dugnad logo.jpg" alt="Dugnad primary school logo">
+                   <!--  <span class="logo-blue">DUGNAD</span>
+                    <span class="logo-red">PRIMARY</span>
+                    <div class="logo-tag">School</div> -->
                 </div>
             </div>
             
             <ul class="nav-menu" id="navMenu">
-                <li><a href="#home" class="active">Home</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#academics">Academics</a></li>
-                <li><a href="#admissions">Admissions</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#home" class="active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fas fa-info-circle"></i> About Us</a></li>
+                <li><a href="#academics"><i class="fas fa-book-open"></i> Academics</a></li>
+                <li><a href="#admissions"><i class="fas fa-user-graduate"></i> Admissions</a></li>
+                <li><a href="#gallery"><i class="fas fa-images"></i> Gallery</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
                 <li class="nav-cta"><a href="#admissions">Apply Now</a></li>
             </ul>
             
@@ -41,19 +44,42 @@
     <section id="home" class="hero">
         <div class="container hero-container">
             <div class="hero-content">
-                <h1 class="hero-title">Welcome to Dugnad School</h1>
-                <p class="hero-subtitle">Preparing for Trinity Term 2026 Opening</p>
-                <p class="hero-text">Excellence in Education, Character, and Community Service</p>
+                <h1 class="hero-title">Welcome to Dugnad Primary School</h1>
+                <p class="hero-subtitle">Where Little Minds Grow Big!</p>
+                <p class="hero-text">Nurturing children with quality primary education (P1-P7) since 1995. Preparing for Trinity Term 2026 opening on <span class="highlight">May 5, 2026</span>.</p>
+                <div class="hero-features">
+                    <div class="feature-item">
+                        <i class="fas fa-child"></i>
+                        <!-- <span>Ages 6-13 Years</span> -->
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-users"></i>
+                        <span>Small Class Sizes</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Safe Environment</span>
+                    </div>
+                </div>
                 <div class="hero-buttons">
-                    <a href="#admissions" class="btn-primary">Apply Now</a>
-                    <a href="#about" class="btn-secondary">Learn More</a>
+                    <a href="#admissions" class="btn-primary">Enroll Your Child</a>
+                    <a href="#contact" class="btn-secondary">Schedule Visit</a>
                 </div>
             </div>
             <div class="hero-image">
-                <!-- Replace with actual school image -->
-                <div class="image-placeholder">
-                    <i class="fas fa-graduation-cap"></i>
-                    <p>School Image Here</p>
+                <div class="floating-elements">
+                    <div class="floating-item item1">
+                        <i class="fas fa-pencil-alt"></i>
+                    </div>
+                    <div class="floating-item item2">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <div class="floating-item item3">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                </div>
+                <div class="hero-image-placeholder">
+                    <img src="./assets/images/school.jpg" alt="Dugnad Primary school building">
                 </div>
             </div>
         </div>
@@ -62,28 +88,31 @@
     <!-- About Us Section -->
     <section id="about" class="section">
         <div class="container">
-            <h2 class="section-title">About Dugnad School</h2>
+            <h2 class="section-title">About Us</h2>
+            <div class="about-intro">
+                <p>Dugnad Primary School is a nurturing educational environment for children from Primary 1 to Primary 7. We focus on holistic development through play-based learning, academic excellence, and character building.</p>
+            </div>
             <div class="about-grid">
-                <div class="about-card">
+                <div class="about-card primary-card">
                     <div class="about-icon">
-                        <i class="fas fa-history"></i>
+                        <i class="fas fa-heart"></i>
                     </div>
-                    <h3>Our History</h3>
-                    <p>Founded in 1995, Dugnad School has been providing quality education for over 25 years, nurturing future leaders of Uganda.</p>
+                    <h3>Our Philosophy</h3>
+                    <p>We believe every child is unique. Our child-centered approach ensures each pupil develops at their own pace while building confidence and love for learning.</p>
                 </div>
-                <div class="about-card">
+                <div class="about-card primary-card">
                     <div class="about-icon">
-                        <i class="fas fa-bullseye"></i>
+                        <i class="fas fa-graduation-cap"></i>
                     </div>
-                    <h3>Our Mission</h3>
-                    <p>To provide holistic education that develops intellectual, physical, social, and spiritual potential of every learner.</p>
+                    <h3>Qualified Teachers</h3>
+                    <p>Our teachers are trained in primary education with special focus on early childhood development and primary school pedagogy.</p>
                 </div>
-                <div class="about-card">
+                <div class="about-card primary-card">
                     <div class="about-icon">
-                        <i class="fas fa-eye"></i>
+                        <i class="fas fa-seedling"></i>
                     </div>
-                    <h3>Our Vision</h3>
-                    <p>To be a center of excellence in education, producing responsible citizens who contribute positively to society.</p>
+                    <h3>Holistic Development</h3>
+                    <p>Beyond academics, we nurture social skills, emotional intelligence, creativity, and physical development through various activities.</p>
                 </div>
             </div>
         </div>
@@ -92,42 +121,142 @@
     <!-- Academics Section -->
     <section id="academics" class="section bg-light">
         <div class="container">
-            <h2 class="section-title">Academics</h2>
-            <div class="academics-grid">
-                <div class="academic-card">
-                    <h3><i class="fas fa-calendar-alt"></i> Term Dates 2026</h3>
-                    <ul class="term-dates">
-                        <li><strong>Trinity Term:</strong> May 5 - August 15, 2026</li>
-                        <li><strong>Opening Day:</strong> May 5, 2026</li>
-                        <li><strong>Mid-Term Break:</strong> June 20-22, 2026</li>
-                        <li><strong>End of Term:</strong> August 15, 2026</li>
-                        <li><strong>Parents' Day:</strong> July 25, 2026</li>
-                    </ul>
-                </div>
-                
-                <div class="academic-card">
-                    <h3><i class="fas fa-book-open"></i> Curriculum</h3>
-                    <p>We follow the Uganda National Curriculum with additional programs:</p>
-                    <ul>
-                        <li>Primary Education (P1-P7)</li>
-                        <li>Lower Secondary (S1-S4)</li>
-                        <li>Upper Secondary (S5-S6)</li>
-                        <li>STEM Focus Programs</li>
-                        <li>Extracurricular Activities</li>
-                    </ul>
-                </div>
-                
-                <div class="academic-card">
-                    <h3><i class="fas fa-newspaper"></i> School News</h3>
-                    <div class="news-item">
-                        <h4>Trinity Term Preparation</h4>
-                        <p>School reopening on May 5, 2026. All students must complete registration by April 30.</p>
-                        <span class="news-date">March 15, 2026</span>
+            <h2 class="section-title">Primary School Academics</h2>
+            <div class="grade-levels">
+                <h3 class="sub-title">Our Grade Levels</h3>
+                <div class="grade-grid">
+                    <div class="grade-card">
+                        <div class="grade-badge">P1-P2</div>
+                        <h4>Lower Primary</h4>
+                        <!-- <p>Ages 6-8 years</p> -->
+                        <ul>
+                            <li>Literacy & Numeracy</li>
+                            <li>Play-based Learning</li>
+                            <li>Social Skills</li>
+                        </ul>
                     </div>
-                    <div class="news-item">
-                        <h4>New Science Lab</h4>
-                        <p>Our new state-of-the-art science laboratory will be operational from Trinity Term.</p>
-                        <span class="news-date">March 10, 2026</span>
+                    <div class="grade-card">
+                        <div class="grade-badge">P3-P4</div>
+                        <h4>Middle Primary</h4>
+                        <!-- <p>Ages 9-10 years</p> -->
+                        <ul>
+                            <li>Core Subjects</li>
+                            <li>Computer Literacy</li>
+                            <li>Creative Arts</li>
+                        </ul>
+                    </div>
+                    <div class="grade-card">
+                        <div class="grade-badge">P5-P7</div>
+                        <h4>Upper Primary</h4>
+                        <!-- <p>Ages 11-13 years</p> -->
+                        <ul>
+                            <li>Exam Preparation</li>
+                            <li>Science & Technology</li>
+                            <li>Leadership Skills</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="academics-grid">
+                <div class="academic-card primary-academic">
+                    <h3><i class="fas fa-calendar-alt"></i> Primary School Term Dates 2026</h3>
+                    <div class="term-schedule">
+                        <div class="term-item">
+                            <div class="term-date">May 5</div>
+                            <div class="term-info">
+                                <strong>Trinity Term Begins</strong>
+                                <small>Opening day for all classes</small>
+                            </div>
+                        </div>
+                        <div class="term-item">
+                            <div class="term-date">June 20-22</div>
+                            <div class="term-info">
+                                <strong>Mid-Term Break</strong>
+                                <small>3-day holiday</small>
+                            </div>
+                        </div>
+                        <div class="term-item">
+                            <div class="term-date">July 25</div>
+                            <div class="term-info">
+                                <strong>Parents' Day</strong>
+                                <small>Meet your child's teachers</small>
+                            </div>
+                        </div>
+                        <div class="term-item">
+                            <div class="term-date">Aug 15</div>
+                            <div class="term-info">
+                                <strong>Term Ends</strong>
+                                <small>Closing ceremony</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="academic-card primary-academic">
+                    <h3><i class="fas fa-book-open"></i> Primary Curriculum</h3>
+                    <div class="curriculum-list">
+                        <div class="subject">
+                            <i class="fas fa-language"></i>
+                            <div>
+                                <h4>English & Literacy</h4>
+                                <p>Reading, Writing, Comprehension</p>
+                            </div>
+                        </div>
+                        <div class="subject">
+                            <i class="fas fa-calculator"></i>
+                            <div>
+                                <h4>Mathematics</h4>
+                                <p>Numbers, Shapes, Problem Solving</p>
+                            </div>
+                        </div>
+                        <div class="subject">
+                            <i class="fas fa-globe-africa"></i>
+                            <div>
+                                <h4>Social Studies</h4>
+                                <p>Uganda Studies, Citizenship</p>
+                            </div>
+                        </div>
+                        <div class="subject">
+                            <i class="fas fa-flask"></i>
+                            <div>
+                                <h4>Science</h4>
+                                <p>Basic Science, Environmental Studies</p>
+                            </div>
+                        </div>
+                        <div class="subject">
+                            <i class="fas fa-paint-brush"></i>
+                            <div>
+                                <h4>Creative Arts</h4>
+                                <p>Art, Music, Drama</p>
+                            </div>
+                        </div>
+                        <div class="subject">
+                            <i class="fas fa-futbol"></i>
+                            <div>
+                                <h4>Physical Education</h4>
+                                <p>Sports, Games, Health Education</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="academic-card primary-academic">
+                    <h3><i class="fas fa-newspaper"></i> School News & Events</h3>
+                    <div class="news-item primary-news">
+                        <div class="news-date">March 25, 2026</div>
+                        <h4>Primary Science Fair</h4>
+                        <p>Our annual science fair for P4-P7 pupils will be held on June 10, 2026.</p>
+                    </div>
+                    <div class="news-item primary-news">
+                        <div class="news-date">March 20, 2026</div>
+                        <h4>New Playground Equipment</h4>
+                        <p>We've installed new safe playground equipment for our lower primary pupils.</p>
+                    </div>
+                    <div class="news-item primary-news">
+                        <div class="news-date">March 15, 2026</div>
+                        <h4>Reading Week Celebration</h4>
+                        <p>Join us for our annual reading week from April 10-15, 2026.</p>
                     </div>
                 </div>
             </div>
@@ -137,117 +266,279 @@
     <!-- Admissions Section -->
     <section id="admissions" class="section">
         <div class="container">
-            <h2 class="section-title">Admissions</h2>
+            <h2 class="section-title">Primary School Admissions</h2>
+            <div class="admissions-intro">
+                <p>We welcome new pupils to join our Primary 1 class and consider transfers to other classes based on availability. Admission for Trinity Term 2026 is now open.</p>
+            </div>
+            
             <div class="admissions-container">
                 <div class="admissions-info">
-                    <h3>Admission Process for 2026</h3>
-                    <ol class="admission-steps">
-                        <li><strong>Step 1:</strong> Download and complete application form</li>
-                        <li><strong>Step 2:</strong> Submit required documents (birth certificate, previous reports)</li>
-                        <li><strong>Step 3:</strong> Attend interview/entrance assessment</li>
-                        <li><strong>Step 4:</strong> Receive admission letter</li>
-                        <li><strong>Step 5:</strong> Pay fees and complete registration</li>
-                    </ol>
+                    <h3>Admission Requirements</h3>
+                    <div class="requirements">
+                        <div class="requirement-item">
+                            <div class="req-number">1</div>
+                            <div class="req-content">
+                                <h4>Age Requirement</h4>
+                                <p>Child must be at least 6 years old for Primary 1 admission.</p>
+                            </div>
+                        </div>
+                        <div class="requirement-item">
+                            <div class="req-number">2</div>
+                            <div class="req-content">
+                                <h4>Documents Needed</h4>
+                                <p>Birth certificate, immunization card, 2 passport photos, previous school report (for transfers).</p>
+                            </div>
+                        </div>
+                        <div class="requirement-item">
+                            <div class="req-number">3</div>
+                            <div class="req-content">
+                                <h4>Assessment</h4>
+                                <p>Basic literacy and numeracy assessment for P1 admissions.</p>
+                            </div>
+                        </div>
+                        <div class="requirement-item">
+                            <div class="req-number">4</div>
+                            <div class="req-content">
+                                <h4>Parent Interview</h4>
+                                <p>Meeting with school administration to discuss educational goals.</p>
+                            </div>
+                        </div>
+                    </div>
                     
                     <div class="download-section">
-                        <h4>Download Forms</h4>
-                        <a href="#" class="download-btn">
-                            <i class="fas fa-download"></i> Application Form (PDF)
-                        </a>
-                        <a href="#" class="download-btn">
-                            <i class="fas fa-download"></i> Requirements List
-                        </a>
+                        <h4>Download Admission Forms</h4>
+                        <div class="download-buttons">
+                            <a href="#" class="download-btn">
+                                <i class="fas fa-download"></i> P1 Admission Form
+                            </a>
+                            <a href="#" class="download-btn">
+                                <i class="fas fa-download"></i> Transfer Form (P2-P7)
+                            </a>
+                            <a href="#" class="download-btn">
+                                <i class="fas fa-download"></i> Requirements Checklist
+                            </a>
+                        </div>
                     </div>
                 </div>
                 
-                <div class="admissions-card">
-                    <h3><i class="fas fa-clock"></i> Important Dates</h3>
-                    <p><strong>Application Deadline:</strong> April 20, 2026</p>
-                    <p><strong>Interviews:</strong> April 22-26, 2026</p>
-                    <p><strong>Notification:</strong> April 30, 2026</p>
-                    <p><strong>Registration:</strong> May 1-4, 2026</p>
+                <div class="admissions-card primary-admission">
+                    <h3><i class="fas fa-clock"></i> Admission Timeline 2026</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">Apr 1-20</div>
+                            <div class="timeline-content">
+                                <h5>Application Period</h5>
+                                <p>Submit completed forms</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">Apr 22-26</div>
+                            <div class="timeline-content">
+                                <h5>Assessments & Interviews</h5>
+                                <p>For P1 applicants</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">Apr 30</div>
+                            <div class="timeline-content">
+                                <h5>Admission Letters</h5>
+                                <p>Successful applicants notified</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">May 1-4</div>
+                            <div class="timeline-content">
+                                <h5>Registration & Fee Payment</h5>
+                                <p>Finalize admission</p>
+                            </div>
+                        </div>
+                    </div>
                     
-                    <div class="fee-info">
-                        <h4>Term Fees</h4>
-                        <p>Primary: UGX 800,000</p>
-                        <p>Secondary: UGX 1,200,000</p>
+                    <div class="fee-info primary-fees">
+                        <h4>Trinity Term 2026 Fees</h4>
+                        <div class="fee-item">
+                            <span>Primary 1-3</span>
+                            <span class="fee-amount">UGX 750,000</span>
+                        </div>
+                        <div class="fee-item">
+                            <span>Primary 4-5</span>
+                            <span class="fee-amount">UGX 800,000</span>
+                        </div>
+                        <div class="fee-item">
+                            <span>Primary 6-7</span>
+                            <span class="fee-amount">UGX 850,000</span>
+                        </div>
+                        <p class="fee-note"><i class="fas fa-info-circle"></i> Includes tuition, stationery, and basic learning materials</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact & Feedback Section -->
-    <section id="contact" class="section bg-light">
+    <!-- Gallery Section -->
+    <section id="gallery" class="section bg-light">
         <div class="container">
-            <h2 class="section-title">Contact & Feedback</h2>
+            <h2 class="section-title">Our School Gallery</h2>
+            <div class="gallery-intro">
+                <p>Take a peek into daily life at Dugnad Primary School</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h4>Interactive Classes</h4>
+                    <p>Modern teaching methods</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h4>Play Areas</h4>
+                    <p>Safe playground facilities</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h4>Music & Arts</h4>
+                    <p>Creative expression</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h4>School Meals</h4>
+                    <p>Healthy lunch program</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h4>Achievements</h4>
+                    <p>Celebrating success</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h4>School Events</h4>
+                    <p>Community gatherings</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Feedback Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contact Our Primary School</h2>
             <div class="contact-container">
                 <div class="contact-info">
                     <h3>Get in Touch</h3>
-                    <div class="contact-item">
+                    <p class="contact-subtitle">We welcome parents to visit our school and see our facilities.</p>
+                    
+                    <div class="contact-item primary-contact">
                         <i class="fas fa-map-marker-alt"></i>
                         <div>
-                            <h4>Address</h4>
-                            <p>Kyambogo, Kampala, Uganda<br>P.O. Box 12345, Kampala</p>
+                            <h4>School Address</h4>
+                            <p>Kyambogo, Kampala, Uganda</p>
+                            <p class="address-detail">Near Kyambogo University, Safe and accessible location</p>
                         </div>
                     </div>
-                    <div class="contact-item">
+                    <div class="contact-item primary-contact">
                         <i class="fas fa-phone"></i>
                         <div>
-                            <h4>Phone Numbers</h4>
-                            <p>+256 772 123 456</p>
-                            <p>+256 704 567 890</p>
-                            <p>+256 781 234 567 (Mobile)</p>
+                            <h4>Call Us</h4>
+                            <p>+256 312 123 456 (Office)</p>
+                            <p>+256 414 567 890 (Administration)</p>
+                            <p>+256 701 234 567 (Head Teacher)</p>
                         </div>
                     </div>
-                    <div class="contact-item">
+                    <div class="contact-item primary-contact">
                         <i class="fas fa-envelope"></i>
                         <div>
-                            <h4>Email</h4>
-                            <p>info@dugnadschool.ac.ug</p>
-                            <p>admissions@dugnadschool.ac.ug</p>
+                            <h4>Email Address</h4>
+                            <p>admissions@dugnadprimary.ac.ug</p>
+                            <p>info@dugnadprimary.ac.ug</p>
+                            <p>headteacher@dugnadprimary.ac.ug</p>
                         </div>
                     </div>
-                    <div class="contact-item">
+                    <div class="contact-item primary-contact">
                         <i class="fas fa-clock"></i>
                         <div>
-                            <h4>Office Hours</h4>
-                            <p>Monday - Friday: 8:00 AM - 5:00 PM</p>
-                            <p>Saturday: 9:00 AM - 1:00 PM</p>
+                            <h4>School Hours</h4>
+                            <p>Monday - Friday: 7:30 AM - 4:30 PM</p>
+                            <p>Saturday: 8:00 AM - 1:00 PM (Activities)</p>
+                            <p>Sunday: Closed</p>
                         </div>
+                    </div>
+                    
+                    <div class="visit-note">
+                        <h4><i class="fas fa-calendar-check"></i> Schedule a School Tour</h4>
+                        <p>We encourage parents to visit our school. Contact us to schedule a guided tour on weekdays between 9:00 AM and 2:00 PM.</p>
                     </div>
                 </div>
                 
                 <div class="contact-form">
-                    <h3>Send Us a Message</h3>
-                    <form id="feedbackForm">
+                    <h3>Parent Inquiry Form</h3>
+                    <p class="form-subtitle">Fill this form for admissions or general inquiries</p>
+                    
+                    <form id="parentForm">
                         <div class="form-group">
-                            <label for="name">Full Name *</label>
-                            <input type="text" id="name" name="name" required>
+                            <label for="parentName">Parent/Guardian Name *</label>
+                            <input type="text" id="parentName" name="parentName" required placeholder="Enter your full name">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="childName">Child's Name *</label>
+                                <input type="text" id="childName" name="childName" required placeholder="Enter child's name">
+                            </div>
+                            <div class="form-group">
+                                <label for="childAge">Child's Age *</label>
+                                <input type="number" id="childAge" name="childAge" min="5" max="13" required placeholder="Age">
+                            </div>
                         </div>
                         <div class="form-group">
-                            <label for="email">Email Address *</label>
-                            <input type="email" id="email" name="email" required>
+                            <label for="parentEmail">Email Address *</label>
+                            <input type="email" id="parentEmail" name="parentEmail" required placeholder="your@email.com">
                         </div>
                         <div class="form-group">
-                            <label for="phone">Phone Number</label>
-                            <input type="tel" id="phone" name="phone" pattern="[0-9+]{10,15}">
+                            <label for="parentPhone">Phone Number *</label>
+                            <input type="tel" id="parentPhone" name="parentPhone" pattern="[0-9+]{10,15}" required placeholder="+256 XXX XXX XXX">
                         </div>
                         <div class="form-group">
-                            <label for="category">Category *</label>
-                            <select id="category" name="category" required>
-                                <option value="">Select Category</option>
-                                <option value="parent">Parent</option>
-                                <option value="student">Student</option>
-                                <option value="teacher">Teacher</option>
-                                <option value="general">General Inquiry</option>
+                            <label for="interestClass">Class of Interest *</label>
+                            <select id="interestClass" name="interestClass" required>
+                                <option value="">Select Class</option>
+                                <option value="p1">Primary 1 (Age 6+)</option>
+                                <option value="p2">Primary 2 (Age 7+)</option>
+                                <option value="p3">Primary 3 (Age 8+)</option>
+                                <option value="p4">Primary 4 (Age 9+)</option>
+                                <option value="p5">Primary 5 (Age 10+)</option>
+                                <option value="p6">Primary 6 (Age 11+)</option>
+                                <option value="p7">Primary 7 (Age 12+)</option>
+                                <option value="transfer">Class Transfer</option>
                             </select>
                         </div>
                         <div class="form-group">
-                            <label for="message">Message *</label>
-                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <label for="messageType">Type of Inquiry *</label>
+                            <select id="messageType" name="messageType" required>
+                                <option value="">Select Inquiry Type</option>
+                                <option value="admission">Admission Information</option>
+                                <option value="tour">School Tour Request</option>
+                                <option value="fees">Fee Structure</option>
+                                <option value="curriculum">Curriculum Inquiry</option>
+                                <option value="other">Other Question</option>
+                            </select>
                         </div>
-                        <button type="submit" class="btn-primary">Send Message</button>
+                        <div class="form-group">
+                            <label for="parentMessage">Message *</label>
+                            <textarea id="parentMessage" name="parentMessage" rows="4" required placeholder="Please include any specific questions or concerns..."></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">
+                            <i class="fas fa-paper-plane"></i> Submit Inquiry
+                        </button>
                     </form>
                 </div>
             </div>
@@ -261,9 +552,14 @@
                 <div class="footer-col">
                     <div class="logo-footer">
                         <span class="logo-blue">DUGNAD</span>
-                        <span class="logo-red">SCHOOL</span>
+                        <span class="logo-red">PRIMARY</span>
+                        <div class="logo-tag-footer">School</div>
                     </div>
-                    <p>Providing quality education since 1995. Preparing future leaders of Uganda.</p>
+                    <p class="footer-motto">Nurturing Uganda's Future Leaders Since 1995</p>
+                    <div class="accreditation">
+                        <p><i class="fas fa-certificate"></i> Registered with Ministry of Education</p>
+                        <p><i class="fas fa-shield-alt"></i> Child Protection Certified</p>
+                    </div>
                     <div class="social-links">
                         <a href="#"><i class="fab fa-facebook"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
@@ -275,25 +571,47 @@
                 <div class="footer-col">
                     <h4>Quick Links</h4>
                     <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#academics">Academics</a></li>
-                        <li><a href="#admissions">Admissions</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="#about"><i class="fas fa-chevron-right"></i> About Our School</a></li>
+                        <li><a href="#academics"><i class="fas fa-chevron-right"></i> Curriculum</a></li>
+                        <li><a href="#admissions"><i class="fas fa-chevron-right"></i> Admissions</a></li>
+                        <li><a href="#gallery"><i class="fas fa-chevron-right"></i> School Gallery</a></li>
+                        <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer-col">
-                    <h4>Contact Info</h4>
+                    <h4>Contact Information</h4>
                     <p><i class="fas fa-map-marker-alt"></i> Kyambogo, Kampala, Uganda</p>
                     <p><i class="fas fa-phone"></i> +256 312 123 456</p>
-                    <p><i class="fas fa-envelope"></i> info@dugnadschool.ac.ug</p>
+                    <p><i class="fas fa-mobile-alt"></i> +256 701 234 567</p>
+                    <p><i class="fas fa-envelope"></i> info@dugnadprimary.ac.ug</p>
                     <p><i class="fas fa-box"></i> P.O. Box 12345, Kampala</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>School Hours</h4>
+                    <div class="hours">
+                        <p><strong>Academic Hours:</strong></p>
+                        <p>Mon-Fri: 8:00 AM - 3:30 PM</p>
+                        <p><strong>Office Hours:</strong></p>
+                        <p>Mon-Fri: 7:30 AM - 4:30 PM</p>
+                        <p>Sat: 8:00 AM - 1:00 PM</p>
+                    </div>
+                    <div class="emergency-contact">
+                        <h5><i class="fas fa-phone-alt"></i> Emergency Contact</h5>
+                        <p>+256 772 345 678</p>
+                    </div>
                 </div>
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; 2025 Dugnad School. All rights reserved. | Designed for Trinity Term 2026</p>
+                <p>&copy; 2025 Dugnad Primary School. All rights reserved. | Preparing for Trinity Term 2026 Opening</p>
+                <p class="footer-links">
+                    <a href="#">Privacy Policy</a> | 
+                    <a href="#">Terms of Use</a> | 
+                    <a href="#">Child Protection Policy</a>
+                </p>
             </div>
         </div>
     </footer>
@@ -302,6 +620,22 @@
     <button id="backToTop" class="back-to-top">
         <i class="fas fa-arrow-up"></i>
     </button>
+
+    <!-- Success Modal -->
+    <div id="successModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h3>Thank You!</h3>
+            <p id="modalMessage">Your inquiry has been submitted successfully. We will contact you within 24 hours.</p>
+            <button id="closeModal" class="btn-primary">OK</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
 
 
     <script>
@@ -312,6 +646,7 @@
         hamburger.addEventListener('click', () => {
             hamburger.classList.toggle('active');
             navMenu.classList.toggle('active');
+            document.body.style.overflow = navMenu.classList.contains('active') ? 'hidden' : '';
         });
 
         // Close mobile menu when clicking on a link
@@ -319,6 +654,7 @@
             link.addEventListener('click', () => {
                 hamburger.classList.remove('active');
                 navMenu.classList.remove('active');
+                document.body.style.overflow = '';
             });
         });
 
@@ -337,29 +673,64 @@
             window.scrollTo({ top: 0, behavior: 'smooth' });
         });
 
-        // Form Submission
-        const feedbackForm = document.getElementById('feedbackForm');
+        // Form Submission with Modal
+        const parentForm = document.getElementById('parentForm');
+        const successModal = document.getElementById('successModal');
+        const modalMessage = document.getElementById('modalMessage');
+        const closeModal = document.getElementById('closeModal');
 
-        feedbackForm.addEventListener('submit', (e) => {
+        parentForm.addEventListener('submit', (e) => {
             e.preventDefault();
             
             // Get form values
-            const name = document.getElementById('name').value;
-            const email = document.getElementById('email').value;
-            const category = document.getElementById('category').value;
+            const parentName = document.getElementById('parentName').value;
+            const childName = document.getElementById('childName').value;
+            const childAge = document.getElementById('childAge').value;
+            const interestClass = document.getElementById('interestClass').value;
             
             // Simple validation
-            if (name && email && category) {
-                // Show success message
-                alert(`Thank you ${name}! Your message has been submitted successfully. We will contact you at ${email} regarding your ${category} inquiry.`);
+            if (parentName && childName && childAge && interestClass) {
+                // Create success message
+                const classLabels = {
+                    'p1': 'Primary 1',
+                    'p2': 'Primary 2', 
+                    'p3': 'Primary 3',
+                    'p4': 'Primary 4',
+                    'p5': 'Primary 5',
+                    'p6': 'Primary 6',
+                    'p7': 'Primary 7',
+                    'transfer': 'Class Transfer'
+                };
+                
+                modalMessage.textContent = `Thank you ${parentName}! We have received your inquiry for ${childName} (age ${childAge}) for ${classLabels[interestClass]}. Our admissions team will contact you within 24 hours to discuss next steps.`;
+                
+                // Show modal
+                successModal.style.display = 'flex';
                 
                 // Reset form
-                feedbackForm.reset();
+                parentForm.reset();
                 
                 // In a real application, you would send data to a server here
-                // Example: fetch('/submit-form', { method: 'POST', body: formData })
+                console.log('Form submitted:', {
+                    parentName,
+                    childName,
+                    childAge,
+                    interestClass
+                });
             } else {
                 alert('Please fill in all required fields marked with *.');
+            }
+        });
+
+        // Close modal
+        closeModal.addEventListener('click', () => {
+            successModal.style.display = 'none';
+        });
+
+        // Close modal when clicking outside
+        window.addEventListener('click', (e) => {
+            if (e.target === successModal) {
+                successModal.style.display = 'none';
             }
         });
 
@@ -374,7 +745,7 @@
                 const sectionTop = section.offsetTop;
                 const sectionHeight = section.clientHeight;
                 
-                if (scrollY >= (sectionTop - 200)) {
+                if (scrollY >= (sectionTop - 150)) {
                     current = section.getAttribute('id');
                 }
             });
@@ -387,27 +758,98 @@
             });
         });
 
-        // News Ticker Effect for News Items
-        const newsItems = document.querySelectorAll('.news-item');
-        let currentNewsIndex = 0;
+        // Age validation for child's age field
+        const childAgeInput = document.getElementById('childAge');
+        if (childAgeInput) {
+            childAgeInput.addEventListener('change', function() {
+                const age = parseInt(this.value);
+                if (age < 5) {
+                    alert('Children must be at least 5 years old for primary school.');
+                    this.value = 5;
+                } else if (age > 13) {
+                    alert('Children over 13 years old should consider secondary school.');
+                    this.value = 13;
+                }
+            });
+        }
 
-        function highlightNewsItem() {
-            newsItems.forEach(item => item.style.opacity = '0.7');
+        // Phone number formatting for Ugandan numbers
+        const parentPhoneInput = document.getElementById('parentPhone');
+        if (parentPhoneInput) {
+            parentPhoneInput.addEventListener('input', function(e) {
+                let value = e.target.value.replace(/\D/g, '');
+                
+                if (value.startsWith('256')) {
+                    value = '+' + value;
+                } else if (value.startsWith('0')) {
+                    value = '+256' + value.substring(1);
+                } else if (value.length > 0 && !value.startsWith('+')) {
+                    value = '+256' + value;
+                }
+                
+                e.target.value = value.substring(0, 14);
+            });
+        }
+
+        // Interactive gallery items
+        document.querySelectorAll('.gallery-item').forEach(item => {
+            item.addEventListener('click', function() {
+                const title = this.querySelector('h4').textContent;
+                const description = this.querySelector('p').textContent;
+                
+                // In a real implementation, this would open a modal with more images
+                alert(`${title}: ${description}\n\nIn the actual website, this would open a photo gallery.`);
+            });
+        });
+
+        // Animate grade cards on scroll
+        const gradeCards = document.querySelectorAll('.grade-card');
+        const observerOptions = {
+            threshold: 0.2,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        gradeCards.forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(20px)';
+            card.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+            observer.observe(card);
+        });
+
+        // Term date countdown
+        function updateTermCountdown() {
+            const termStart = new Date('May 5, 2026').getTime();
+            const now = new Date().getTime();
+            const distance = termStart - now;
             
-            if (newsItems[currentNewsIndex]) {
-                newsItems[currentNewsIndex].style.opacity = '1';
-                newsItems[currentNewsIndex].style.transform = 'scale(1.02)';
-                newsItems[currentNewsIndex].style.transition = 'all 0.3s ease';
+            if (distance > 0) {
+                const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                const countdownElement = document.querySelector('.hero-text .highlight');
+                
+                if (countdownElement && days > 0) {
+                    // Update the hero text to include countdown
+                    const heroText = document.querySelector('.hero-text');
+                    if (heroText && !heroText.innerHTML.includes('Days to go')) {
+                        heroText.innerHTML = heroText.innerHTML.replace(
+                            'May 5, 2026',
+                            `May 5, 2026 (<span class="highlight">${days} days to go!</span>)`
+                        );
+                    }
+                }
             }
-            
-            currentNewsIndex = (currentNewsIndex + 1) % newsItems.length;
         }
 
-        // Initialize news ticker if there are news items
-        if (newsItems.length > 0) {
-            setInterval(highlightNewsItem, 3000);
-            highlightNewsItem(); // Initial call
-        }
+        // Initialize countdown when page loads
+        document.addEventListener('DOMContentLoaded', updateTermCountdown);
 
         // Smooth scrolling for all anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -427,33 +869,30 @@
             });
         });
 
-        // Phone number formatting
-        const phoneInput = document.getElementById('phone');
-        if (phoneInput) {
-            phoneInput.addEventListener('input', function(e) {
-                let value = e.target.value.replace(/\D/g, '');
-                
-                if (value.startsWith('256')) {
-                    value = '+' + value;
-                } else if (value.startsWith('0')) {
-                    value = '+256' + value.substring(1);
-                }
-                
-                e.target.value = value;
-            });
-        }
-
-        // Initialize tooltips for icons
-        document.querySelectorAll('.contact-item i, .about-icon i').forEach(icon => {
+        // Initialize tooltips for contact icons
+        document.querySelectorAll('.contact-item i').forEach(icon => {
             icon.addEventListener('mouseenter', function() {
-                this.style.transform = 'scale(1.2)';
+                this.style.transform = 'scale(1.2) rotate(5deg)';
                 this.style.transition = 'transform 0.3s ease';
             });
             
             icon.addEventListener('mouseleave', function() {
-                this.style.transform = 'scale(1)';
+                this.style.transform = 'scale(1) rotate(0)';
             });
         });
+
+        // Add playful animation to school logo on click
+        const logo = document.querySelector('.logo-placeholder');
+        if (logo) {
+            logo.addEventListener('click', function() {
+                this.style.transform = 'scale(1.05)';
+                this.style.transition = 'transform 0.3s ease';
+                
+                setTimeout(() => {
+                    this.style.transform = 'scale(1)';
+                }, 300);
+            });
+        }
     </script>
 
 
